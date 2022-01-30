@@ -1,0 +1,130 @@
+body{
+    background-color: whitesmoke;
+}
+
+@media only screen and (min-width: 961px) {
+    .flex-container {
+        display: flex;
+        justify-content:center;
+        width: 75%;
+        margin: auto;
+    }
+
+    .menu-flex-container{
+        justify-content: space-around;
+        align-self: center;
+        display: flex;
+        width: 75%;
+        margin: auto;
+    }
+    
+  }
+
+.footer {
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   padding: 15px;
+   width: 100%;
+   background-color: green;
+   text-align: center;
+}
+
+.footer-link{
+    padding: 50px;
+    color:yellow;
+}
+
+ .navbar-custom .navbar-text {
+    color: green !important;
+}
+
+.navbar-custom {
+    background-color: green !important;
+}
+
+.nav-link{
+    color: yellow !important;
+    font-size: 36px;
+    padding-left: 30px;
+}
+
+.navbar-nav > li{
+    padding-left:15px;
+    padding-right:15px;
+  }
+
+.navbar-toggler{
+    color: white;
+}
+
+h1{
+    color:maroon;
+    text-align: center;
+    margin: 10px;
+    font-size: 64px;
+}
+
+h2{
+    color:green;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
+
+h3{
+    text-align: center;
+}
+
+.center-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.smaller-text{
+    font-size: 16px;
+    padding: 0px;
+    margin:0px;
+}
+
+.about-box{
+    flex: 1;
+    vertical-align: middle;
+    padding: 70px 0;
+}
+
+.map{
+    flex: 1;
+}
+
+.menu-item{
+    flex: 1
+}
+
+.menu-image{
+    padding:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    color:maroon;
+    font-size:36px;
+    text-align:center;
+    padding-top: 24px;
+}
+
+h5{
+    text-align: center;
+    color: green;
+    font-size: 28px;
+}
